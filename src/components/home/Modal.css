@@ -1,0 +1,65 @@
+.modal-block {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(0,0,0);
+    background: linear-gradient(356deg, rgb(23, 23, 23) 55%, rgba(218,218,218,0.9) 100%);
+    padding: 55px 45px 40px 45px;
+  
+    z-index: 1000;
+    border-radius: 10px;
+}
+
+.modal-block-overlay-style {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+}
+
+.modal-block-close {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.modal-block-close-btn {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    z-index: 100;
+    top: 8px;
+    right: 8px;
+}
+
+
+.modal-block-close-img {
+    width: 30px;
+    cursor: pointer;
+    display: inline-block;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.modal-block-close-img:before {
+    background-color: initial;
+    background-image: transparent;
+    border-radius: 100px;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    transition: all .3s;
+
+}
+
+.modal-block-close-img:hover {
+    box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+    transform: scale(1.05);
+    border-radius: 100px;
+}
+

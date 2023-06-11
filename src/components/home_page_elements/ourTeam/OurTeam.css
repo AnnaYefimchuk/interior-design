@@ -1,0 +1,54 @@
+.designElement-horizontal {
+    position: absolute;
+}
+
+.our-team-block-title {
+    font-size: 60px;
+    line-height: 70px;
+    color: #FFFFFF;
+}
+
+.our-team-block-names {
+    font-family: 'Roboto';
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 30px;
+}
+
+.our-team-block-names-element {
+    border-bottom: 1px solid rgba(171, 174, 183, 0.3);
+    font-family: 'Roboto';
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    padding-bottom: 15px;
+}
+
+.our-team-block {
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-team-content{
+    flex: 1 1 1200px;
+}
+
+.our-team-block-name {
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.3em;
+    color: #FFC978;
+}
+
+.our-team-block-photo{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}

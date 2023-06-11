@@ -1,0 +1,9 @@
+.picture-carusel-block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 120px;
+    overflow: auto;
+    white-space: nowrap;
+}

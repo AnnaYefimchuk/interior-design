@@ -1,0 +1,62 @@
+.home-page-firstblock {
+    display: flex;
+    flex-direction: row;
+}
+
+.home-page-architecture-design {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url(../../../images/path.png);
+    background-repeat: no-repeat;
+    flex: 1;
+}
+
+.home-page-architecture-img {
+    margin-top: -115px;
+    flex: 1;
+}
+
+.star-box {
+    align-self: flex-end;
+    margin: 124px 138px 41px 0px;
+}
+
+.home-page-about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px 69px 170px 99px;
+}
+
+.home-page-aboutcompany-comp {
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.31em;
+    color: #FFC978;
+    margin-bottom: 30px;
+}
+
+.home-page-aboutcompany-compName {
+    font-size: 84px;
+    line-height: 94px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 10px;
+}
+
+.home-page-aboutcompany-title {
+    font-size: 20px;
+    line-height: 33px;
+    color: #ABAEB7;
+    font-family: 'Roboto';
+    margin-bottom: 50px;
+}
+
+.home-page-aboutcompany-desElement {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 170px;
+    line-height: 130px;
+    color: rgba(11, 14, 23, 0.4);
+}

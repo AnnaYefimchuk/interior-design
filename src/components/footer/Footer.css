@@ -1,0 +1,119 @@
+.footer-block {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 1920px;
+    background-color: rgb(30, 30, 30);
+    margin: 0px auto;
+}
+
+.footer-block-size {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin: 70px 0px;
+}
+
+.footer-firstblock {
+    flex: 0 0 349px;
+}
+
+.footer-firstblock-elements {
+    display: flex;
+    gap: 93px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-block-about {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 26px;
+    color: #D7E0E1;
+    align-self: flex-end;
+}
+
+.footer-block-second {
+    flex: 0 0 390px;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-image: radial-gradient(rgb(255, 255, 255), rgb(30, 30, 30)) 1;
+}
+
+.footer-block-first-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-block-first-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.footer-block-first-link {
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color: #ABAEB7;
+    text-decoration: none;
+}
+
+.footer-block-first-li {
+    list-style: none;
+}
+
+.orangeColor {
+    font-family: 'Roboto';
+    font-weight: 600;
+    color: #FFB077;
+}
+
+.footer-block-last {
+    flex: 0 0 271px;
+}
+
+.footer-visitcall {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer-last-elements {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-block-last-title {
+    font-size: 48px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.footer-block-last-description {
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 28px;
+    color: #ABAEB7;
+}
+
+.footer-block-horizontal-info {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 22px;
+    color: #ABAEB7;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+.footer-block-horizontal {
+    border-top-style: solid;
+    border-image: radial-gradient(rgb(255, 255, 255), rgb(30, 30, 30)) 1;
+}

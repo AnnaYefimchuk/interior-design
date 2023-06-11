@@ -1,0 +1,46 @@
+.room-plan-block {
+    background-image: url(../../../images/BG1.png);
+    background-repeat: no-repeat;
+}
+
+.room-plan-bgblock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 115px;
+    margin: 50px 0px;
+}
+
+.room-plan-HousePlanimg {
+    flex: 0 0 558px;
+}
+
+.room-plan-digital {
+    flex: 0 0 630px;
+}
+
+.room-plan-percent-block {
+    display: flex;
+    gap: 50px;
+    margin: 40px 0px;
+}
+
+.percent {
+    font-family: 'LarkenDEMO-Regular';
+    font-size: 64px;
+    line-height: 70px;
+    color: #FFAF76;
+    font-weight: 600;
+}
+
+.percent-element {
+    font-size: 32px;
+    line-height: 70px;
+}
+
+.percent-description {
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 21px;
+    color: #ABAEB7;
+}

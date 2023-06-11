@@ -1,0 +1,19 @@
+.projects-block {
+    max-width: 1920px;
+    margin: 0px auto;
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    color: aliceblue;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 750px;
+    flex-wrap: wrap;
+}
+
+.projects-block-text {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+}

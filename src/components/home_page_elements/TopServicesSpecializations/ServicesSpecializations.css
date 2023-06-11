@@ -1,0 +1,70 @@
+.home-page-services-block {
+    display: flex;
+    flex-direction: row;
+    font-family: 'LarkenDEMO-Regular';
+    justify-content: center;
+    margin-top: 120px;
+    gap: 30px;
+    background-image: url(../../../images/path.png);
+    background-repeat: no-repeat;
+    background-position: -58px 538px;
+}
+
+.home-page-first-block,
+.home-page-last-block {
+    align-self: center;
+    /* margin-top: 30px; */
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.photo-text {
+    position: absolute;
+    bottom: 4px;
+    text-align: left;
+    background: linear-gradient(to bottom, transparent, #1b1b1b);
+    padding: 41px 20px 30px 30px;
+}
+
+.photo-text-block-header {
+    font-size: 25px;
+    line-height: 31px;
+    margin-bottom: 10px;
+}
+
+.photo-text-shortinfo {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.home-page-middle-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.home-page-services {
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.3em;
+    color: #FFC978;
+    margin-bottom: 13px;
+}
+
+.home-page-specializations {
+    font-size: 63px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    margin-bottom: 52px;
+}
+
+.home-page-middle {
+    display: flex;
+    gap: 30px;
+}

@@ -1,0 +1,93 @@
+.aboutUs-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 140px;
+    margin-bottom: 130px;
+    background-image: url(../../../images/path.png);
+    background-repeat: no-repeat;
+    background-position: -53px -134px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.aboutUs-block-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.building-img1 {
+    align-self: flex-start;
+}
+
+.aboutUs-block-one-midle {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 44px;
+    align-self: stretch;
+}
+
+
+.aboutUs-percentB {
+    font-size: 128px;
+    line-height: 120px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+.aboutUs-percent {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.aboutUs-clients {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    width: 78px;
+}
+
+.aboutUs-block-one-last {
+    display: flex;
+    gap: 45px;
+}
+
+.readMore {
+    align-self: self-end;
+}
+
+.room-plan-title {
+    font-size: 60px;
+    line-height: 70px;
+    color: #FFFFFF;
+}
+
+.aboutUs-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 440px;
+}
+
+.room-plan-description {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 26px;
+    color: #ABAEB7;
+    padding: 30px;
+    border-left-style: groove;
+    border-image: radial-gradient(rgb(255, 255, 255), rgb(30, 30, 30)) 1;
+    margin-left: 60px;
+}
+
+.aboutUs-percent-element {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 164px;
+    color: #FFFFFF;
+}

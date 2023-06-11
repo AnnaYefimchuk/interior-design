@@ -1,0 +1,65 @@
+[
+	{
+		"id": 1,
+		"Residence": "LUX APARTMENT",
+		"BEDBATH": "3/2",
+		"SQFT": "110",
+		"SalePrice": "$350,000",
+		"RentPrice": "$2,500",
+		"FloorPlan": "View now"
+	},
+	{
+		"id": 2,
+		"Residence": "THE GREEN VILLA",
+		"BEDBATH": "3/3",
+		"SQFT": "1120",
+		"SalePrice": "$194,000",
+		"RentPrice": "$3,500",
+		"FloorPlan": "View now"
+	},
+	{
+		"id": 3,
+		"Residence": "PENTHOUSE",
+		"BEDBATH": "3/3",
+		"SQFT": "320",
+		"SalePrice": "$240,000",
+		"RentPrice": "$2,500",
+		"FloorPlan": "View now"
+	},
+	{
+		"id": 4,
+		"Residence": "SPA LUXURY",
+		"BEDBATH": "3/3",
+		"SQFT": "520",
+		"SalePrice": "$520,000",
+		"RentPrice": "$9,000",
+		"FloorPlan": "View now"
+	},
+	{
+		"id": 5,
+		"Residence": "DUPLEX 13A",
+		"BEDBATH": "3/3",
+		"SQFT": "50",
+		"SalePrice": "$150,000",
+		"RentPrice": "$1,900",
+		"FloorPlan": "View now"
+	},
+	{
+		"id": 6,
+		"Residence": "STUDIO 8A",
+		"BEDBATH": "3/3",
+		"SQFT": "99",
+		"SalePrice": "$50,000",
+		"RentPrice": "$900",
+		"FloorPlan": "View now"
+	},
+	{
+		"id": 7,
+		"Residence": "SIMPLEX 12A8",
+		"BEDBATH": "3/2",
+		"SQFT": "100",
+		"SalePrice": "$350,000",
+		"RentPrice": "$2,500",
+		"FloorPlan": "View now"
+	}
+]

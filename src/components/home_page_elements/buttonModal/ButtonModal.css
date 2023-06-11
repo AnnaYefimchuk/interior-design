@@ -1,0 +1,62 @@
+.home-page-aboutcompany-button {
+    padding: 20px 35px;
+    gap: 10px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;
+    transition-duration: 0.4s;
+}
+
+.home-page-aboutcompany-button:hover {
+    background-color: #abaeb763;
+}
+
+.input-form-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-form-block-input {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+    margin: 6px;
+    padding: 10px;
+    width: 220px;
+}
+
+.textareaStyle {
+    height: 100px;
+    resize: none;
+}
+
+.output-info {
+    color: #D7E0E1;
+}
+
+.home-page-aboutcompany-button-black {
+    padding: 20px 35px;
+    gap: 10px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;
+    transition-duration: 0.4s;
+    box-shadow: 0 0 15px #d6d6d6;
+}
+
+.home-page-aboutcompany-button-black:hover {
+    background-color: #abaeb763;
+    color: #fff;
+    text-decoration: none;
+}
