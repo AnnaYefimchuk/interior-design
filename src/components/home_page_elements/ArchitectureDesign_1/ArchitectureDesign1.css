@@ -15,48 +15,107 @@
 .home-page-architecture-img {
     margin-top: -115px;
     flex: 1;
+    width: 100%;
 }
 
 .star-box {
     align-self: flex-end;
-    margin: 124px 138px 41px 0px;
+    margin: 7.75rem 8.6rem 2.6rem 0rem;
 }
 
 .home-page-about {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 0px 69px 170px 99px;
+    margin: 0rem 4.3rem 10.6rem 6.2rem;
 }
 
 .home-page-aboutcompany-comp {
-    font-size: 16px;
-    line-height: 21px;
+    font-size: 1rem;
+    line-height: 1.3rem;
     letter-spacing: 0.31em;
     color: #FFC978;
-    margin-bottom: 30px;
+    margin-bottom: 1.9rem;
 }
 
 .home-page-aboutcompany-compName {
-    font-size: 84px;
-    line-height: 94px;
+    font-size: 5.25rem;
+    line-height: 5.4rem;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-bottom: 10px;
 }
 
 .home-page-aboutcompany-title {
-    font-size: 20px;
-    line-height: 33px;
+    font-size: 1.2rem;
+    line-height: 2rem;
     color: #ABAEB7;
     font-family: 'Roboto';
-    margin-bottom: 50px;
+    margin-bottom: 3.2rem;
 }
 
 .home-page-aboutcompany-desElement {
     font-family: 'Roboto';
     font-weight: 900;
-    font-size: 170px;
-    line-height: 130px;
+    font-size: 10.6rem;
+    line-height: 8.1rem;
     color: rgba(11, 14, 23, 0.4);
 }
+
+
+@media (max-width: 118rem) {
+    .home-page-architecture-img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 100rem) {
+    .star-box {
+        margin: 5rem 8.6rem 2rem 0rem;
+    }
+
+    .home-page-about {
+        margin: 0rem 4.2rem 6.4rem 6.2rem;
+    }
+
+    .home-page-aboutcompany-compName {
+        font-size: 4.8rem;
+    }
+
+    .home-page-aboutcompany-desElement {
+        line-height: 0rem;
+        color: transparent
+    }
+}
+
+
+
+@media (max-width: 82.5rem) {
+    .star-box {
+        display: none;
+    }
+
+    .home-page-about {
+        margin: 4.8rem 4.2rem 3.6rem 6.2rem;
+    }
+
+    .home-page-aboutcompany-title {
+        font-size: 1rem;
+
+    }
+
+    .home-page-aboutcompany-compName {
+        font-size: 4.2rem;
+    }
+
+    .home-page-firstblock {
+        flex-wrap: wrap;
+    }
+
+    .home-page-architecture-img {
+        margin-top: 0px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {}

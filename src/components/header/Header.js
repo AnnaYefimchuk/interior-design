@@ -14,12 +14,12 @@ export default function Header() {
                                 </li>
                                 <li className="header-navigation-li">
                                     <Link to="/project" className="header-navigation-element">PROJECTS</Link>
-                                </li>
+                                </li> 
                                 <li className="header-navigation-li">
                                     <Link to="/architecture" className="header-navigation-element">ARCHITECTURE</Link>
                                 </li>
                                 <li className="header-navigation-li">
-                                    <Link to="/blog" className="header-navigation-element">BLOG</Link>
+                                    <Link to="/blog" className="header-navigation-element padding-r">BLOG</Link>
                                 </li>
                             </ul>
                         </nav>

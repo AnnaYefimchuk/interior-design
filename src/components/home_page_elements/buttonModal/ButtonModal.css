@@ -6,8 +6,8 @@
     color: #FFFFFF;
     font-family: 'Roboto';
     font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 1rem;
+    line-height: 1.2rem;
     text-transform: capitalize;
     transition-duration: 0.4s;
 }
@@ -48,8 +48,8 @@
     color: #FFFFFF;
     font-family: 'Roboto';
     font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 1rem;
+    line-height: 1.2rem;
     text-transform: capitalize;
     transition-duration: 0.4s;
     box-shadow: 0 0 15px #d6d6d6;
@@ -60,3 +60,11 @@
     color: #fff;
     text-decoration: none;
 }
+
+@media screen and (min-width: 1921px) {}
+
+@media screen and (max-width: 1920px) {}
+
+@media screen and (max-width: 780px) {}
+
+@media screen and (max-width: 320px) {}

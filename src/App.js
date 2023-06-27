@@ -10,7 +10,6 @@ function App() {
       <Header />
       <RoutesRMC />
       <Footer />
-      
     </div>
   );
 }

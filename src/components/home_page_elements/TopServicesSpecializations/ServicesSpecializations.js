@@ -25,15 +25,16 @@ export default function ServicesSpecializations() {
                 <p className='home-page-specializations'>Our Specializations</p>
                 <div className='home-page-middle'>
                     <div className='container'>
-                        <img className='' src={InteriorDesign} alt='star' />
+                        <img className='imgTest' src={InteriorDesign} alt='star' />
                         <div className='photo-text'>
                             <p className='photo-text-block-header'>Interior Design</p>
                             <p className='photo-text-shortinfo'>Tempor incididunt ut labore et dolore magna aliqua. </p>
                         </div>
                     </div>
 
+
                     <div className='container'>
-                        <img className='' src={ArchitectureDesign} alt='star' />
+                        <img className='imgTest' src={ArchitectureDesign} alt='star' />
                         <div className='photo-text'>
                             <p className='photo-text-block-header'>Architecture Design</p>
                             <p className='photo-text-shortinfo'>Tempor incididunt ut labore et dolore magna aliqua. </p>
@@ -44,7 +45,7 @@ export default function ServicesSpecializations() {
 
             <div className='home-page-last-block'>
                 <div className='container'>
-                    <img className='' src={Construction} alt='star' />
+                    <img className='imgTest' src={Construction} alt='star' />
                     <div className='photo-text'>
                         <p className='photo-text-block-header'>Construction</p>
                         <p className='photo-text-shortinfo'>Tempor incididunt ut labore et dolore magna aliqua. </p>

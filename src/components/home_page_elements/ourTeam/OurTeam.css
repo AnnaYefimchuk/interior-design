@@ -1,17 +1,22 @@
+.team-block {
+    position: relative;
+}
+
 .designElement-horizontal {
     position: absolute;
+    width: 100%;
 }
 
 .our-team-block-title {
-    font-size: 60px;
-    line-height: 70px;
+    font-size: 3.75rem;
+    line-height: 4.4rem;
     color: #FFFFFF;
 }
 
 .our-team-block-names {
     font-family: 'Roboto';
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -24,31 +29,39 @@
 .our-team-block-names-element {
     border-bottom: 1px solid rgba(171, 174, 183, 0.3);
     font-family: 'Roboto';
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 1.5rempx;
+    line-height: 1.75rem;
     letter-spacing: 0.03em;
     padding-bottom: 15px;
 }
 
 .our-team-block {
-    margin-top: 130px;
+    margin-top: 8.2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.our-team-content{
-    flex: 1 1 1200px;
+.our-team-content {
+    flex: 1 1 75rem;
 }
 
 .our-team-block-name {
-    font-size: 16px;
-    line-height: 21px;
+    font-size: 1rem;
+    line-height: 1.3rem;
     letter-spacing: 0.3em;
     color: #FFC978;
 }
 
-.our-team-block-photo{
-    margin-top: 60px;
-    margin-bottom: 50px;
+.our-team-block-photo {
+    margin-top: 3.75rem;
+    margin-bottom: 3.15rem;
+    width: 100%;
 }
+
+
+@media screen and (max-width: 1920px) {}
+
+@media screen and (max-width: 780px) {}
+
+@media screen and (max-width: 320px) {}

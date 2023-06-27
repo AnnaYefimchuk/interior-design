@@ -7,7 +7,7 @@ export default function RoomPlane() {
         <div className='room-plan-block'>
             <div className='room-plan-bgblock'>
                 <div className='room-plan-HousePlanimg'>
-                    <img src={HousePlan} alt='HousePlan' />
+                    <img className='room-plan-HousePlan-img' src={HousePlan} alt='HousePlan' />
                 </div>
                 <div className='room-plan-digital'>
                     <p className='room-plan-title'>We Create Digital Experience</p>

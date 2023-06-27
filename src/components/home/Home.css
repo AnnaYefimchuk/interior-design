@@ -1,7 +1,7 @@
 .home-page {
     display: flex;
     flex-direction: column;
-    width: 1920px;
+    max-width: 120rem;
     background-color: rgb(30, 30, 30);
     margin: 0px auto;
 }
@@ -15,7 +15,7 @@
 }
 
 .check-availability-size {
-    flex: 0 1 1290px;
+    flex: 0 1 80.5rem;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -51,7 +51,7 @@
 
 .list-container-header-map {
     font-family: 'Roboto';
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 19px;
     letter-spacing: 0.03em;
     color: #ABAEB7;
@@ -59,42 +59,46 @@
     border-color: #ABAEB7;
 }
 
-.item-element-title1, .list-container-head1 {
-    flex: 0 1 150px;
+.item-element-title1,
+.list-container-head1 {
+    flex: 0 1 9.4rem;
 }
 
-.item-element-title, .list-container-head {
-    flex: 0 1 80px;
+.item-element-title,
+.list-container-head {
+    flex: 0 1 5rem;
 }
 
 .list-container-head,
 .list-container-head1 {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 21px;
     letter-spacing: 0.05em;
     color: #FFB076;
 }
 
 .check-availability-list {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 21px;
     letter-spacing: 0.3em;
     color: #FFC978;
 }
 
 .check-availability-descr {
-    font-size: 60px;
+    font-size: 3.75rem;
     line-height: 70px;
     color: #FFFFFF;
 }
 
 .check-availability-unique {
     font-family: 'Roboto';
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 26px;
     color: #D7E0E1;
-    max-width: 440px;
+    max-width: 27.5rem;
     padding: 30px;
     border-left-style: solid;
     border-image: radial-gradient(rgb(255, 255, 255), rgb(30, 30, 30)) 1;
 }
+
+@media screen and(max-width: 420px) {}

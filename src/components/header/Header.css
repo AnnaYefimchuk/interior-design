@@ -1,8 +1,8 @@
 .header-info {
-    width: 1920px;
+    max-width: 120rem;
     margin: 0px auto;
     background-color: rgb(30, 30, 30);
-    padding: 29px 99px 0px 99px;
+    padding: 1.8rem 6.1rem 0rem 6.1rem;
 }
 
 .header-block {
@@ -21,7 +21,7 @@
 
 .header-logo {
     color: #ffffff;
-    font-size: 50px;
+    font-size: 3.1rem;
     line-height: 60px;
     text-decoration: none;
     flex: 1;
@@ -61,7 +61,7 @@
     background-color: transparent;
     color: #FFFFFF;
     font-family: 'Roboto';
-    font-size: 16px;
+    font-size: 1rem;
     transition-duration: 0.4s;
 }
 
@@ -69,4 +69,12 @@
     background-color: #abaeb763;
 }
 
-@media screen and (max-width: 420px) {}
+@media (max-width: 92rem) {
+    .header-navigation-nav {
+        flex: none;
+    }
+
+    .padding-r {
+        padding-right: 15px;
+    }
+}

@@ -13,7 +13,6 @@
 .home-page-first-block,
 .home-page-last-block {
     align-self: center;
-    /* margin-top: 30px; */
 }
 
 .container {
@@ -31,14 +30,14 @@
 }
 
 .photo-text-block-header {
-    font-size: 25px;
+    font-size: 1.6rem;
     line-height: 31px;
     margin-bottom: 10px;
 }
 
 .photo-text-shortinfo {
     font-family: 'Roboto';
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 19px;
 }
 
@@ -47,10 +46,11 @@
     flex-direction: column;
     align-items: center;
     margin-top: 30px;
+
 }
 
 .home-page-services {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 21px;
     letter-spacing: 0.3em;
     color: #FFC978;
@@ -58,7 +58,7 @@
 }
 
 .home-page-specializations {
-    font-size: 63px;
+    font-size: 4rem;
     letter-spacing: 0.5px;
     color: #FFFFFF;
     margin-bottom: 52px;
@@ -68,3 +68,21 @@
     display: flex;
     gap: 30px;
 }
+
+
+@media (max-width: 82.5rem) {
+
+    .home-page-first-block,
+    .home-page-last-block {
+        display: none;
+    }
+
+    .home-page-middle-block {
+        align-items: flex-start;
+    }
+
+}
+
+@media screen and (max-width: 780px) {}
+
+@media screen and (max-width: 320px) {}

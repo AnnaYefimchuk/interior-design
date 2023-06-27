@@ -4,8 +4,8 @@ import OurTeamPhoto from '../../../images/ourTeam.png';
 
 export default function OurTeam() {
     return (
-        <div>
-            <img className='designElement-horizontal' src={Path1} alt='star' />
+        <div className='team-block'>
+            <img className='designElement-horizontal' src={Path1} alt='horizontal-line' />
 
             <div className='our-team-block'>
                 <div className='our-team-content'>

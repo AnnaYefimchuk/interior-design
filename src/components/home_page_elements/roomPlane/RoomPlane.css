@@ -12,11 +12,15 @@
 }
 
 .room-plan-HousePlanimg {
-    flex: 0 0 558px;
+    flex: 0 0 35rem;
+}
+
+.room-plan-HousePlan-img {
+    width: 100%;
 }
 
 .room-plan-digital {
-    flex: 0 0 630px;
+    flex: 0 0 39.4rem;
 }
 
 .room-plan-percent-block {
@@ -27,20 +31,63 @@
 
 .percent {
     font-family: 'LarkenDEMO-Regular';
-    font-size: 64px;
+    font-size: 4rem;
     line-height: 70px;
     color: #FFAF76;
     font-weight: 600;
 }
 
 .percent-element {
-    font-size: 32px;
+    font-size: 2rem;
     line-height: 70px;
 }
 
 .percent-description {
     font-family: 'Roboto';
-    font-size: 18px;
+    font-size: 1.2rem;
     line-height: 21px;
     color: #ABAEB7;
+}
+
+
+@media screen and (max-width: 82.5rem) {
+    .room-plan-bgblock {
+        gap: 70px;
+    }
+
+    .room-plan-HousePlanimg {
+        flex: 0 0 30rem;
+    }
+
+    .room-plan-HousePlan-img {
+        width: 100%;
+    }
+
+    .room-plan-digital {
+        flex: 0 0 30rem;
+    }
+}
+
+@media screen and (max-width: 60.6rem) {
+
+    .room-plan-bgblock {
+        margin: 50px 50px;
+        flex-direction: column-reverse;
+        align-items: stretch;
+        gap: 20px;
+    }
+
+    .room-plan-digital {
+        flex: 0 1;
+    }
+
+    .room-plan-block {
+        background-color: #23272f;
+    }
+}
+
+@media screen and (max-width: 32.5rem) {
+    .room-plan-HousePlanimg {
+        flex: 0 0 5rem;
+    }
 }
