@@ -91,3 +91,26 @@
         flex: 0 0 5rem;
     }
 }
+
+@media (max-width: 27.5rem) {
+
+    .room-plan-bgblock {
+        margin: 50px 30px;
+    }
+
+    .room-plan-title {
+        font-size: 2.6rem;
+    }
+
+    .percent {
+        font-size: 3.8rem;
+    }
+
+    .percent-element {
+        font-size: 1.8rem;
+    }
+
+    .percent-description {
+        font-size: 1rem;
+    }
+}

@@ -69,13 +69,13 @@
     }
 }
 
-@media (max-width: 100rem) {
+@media (max-width: 92rem) {
     .star-box {
-        margin: 5rem 8.6rem 2rem 0rem;
+        margin: 4rem 8.2rem 2rem 0rem;
     }
 
     .home-page-about {
-        margin: 0rem 4.2rem 6.4rem 6.2rem;
+        margin: 0rem 3.4rem 6rem 6.2rem;
     }
 
     .home-page-aboutcompany-compName {
@@ -88,6 +88,11 @@
     }
 }
 
+@media (max-width: 87.18rem) {
+    .home-page-aboutcompany-compName {
+        font-size: 4.2rem;
+    }
+}
 
 
 @media (max-width: 82.5rem) {
@@ -104,10 +109,6 @@
 
     }
 
-    .home-page-aboutcompany-compName {
-        font-size: 4.2rem;
-    }
-
     .home-page-firstblock {
         flex-wrap: wrap;
     }
@@ -118,4 +119,29 @@
 
 }
 
-@media screen and (max-width: 320px) {}
+@media screen and (max-width: 48rem) {
+    .home-page-about {
+        margin: 4.8rem 1.87rem 3.6rem 1.87rem;
+    }
+
+    .home-page-aboutcompany-compName {
+        font-size: 3rem;
+        line-height: 3.8rem
+    }
+
+    .home-page-aboutcompany-title {
+        max-width: 490px;
+
+    }
+}
+
+
+@media screen and (max-width: 32.5rem) {
+    .home-page-about {
+        max-width: 350px;
+    }
+
+    .home-page-architecture-design {
+        background-image: none;
+    }
+}

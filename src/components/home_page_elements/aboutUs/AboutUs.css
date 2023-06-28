@@ -88,6 +88,7 @@
     border-left-style: groove;
     border-image: radial-gradient(rgb(255, 255, 255), rgb(30, 30, 30)) 1;
     margin-left: 3.75rem;
+    margin-bottom: 1rem;
 }
 
 .aboutUs-percent-element {
@@ -193,6 +194,66 @@
     }
 }
 
-@media screen and (max-width: 780px) {}
+@media screen and (max-width: 48rem) {
 
-@media screen and (max-width: 320px) {}
+    .aboutUs-grid {
+        justify-content: center;
+    }
+
+    .building-example1,
+    .building-example2 {
+        width: 100%;
+    }
+
+    .aboutUs-block {
+        margin: 0 50px 100px 50px;
+    }
+
+}
+
+@media screen and (max-width: 37.5rem) {
+    .aboutUs-grid {
+        grid-template-rows: auto 450px auto;
+    }
+
+    .room-plan-description {
+        width: 35rem;
+    }
+
+    .aboutUs-block {
+        margin: 0 30px 100px 30px;
+    }
+}
+
+@media screen and (max-width: 32.5rem) {
+    .aboutUs-grid {
+        grid-template-rows: auto 400px auto;
+    }
+
+    .room-plan-description {
+        width: 29rem;
+    }
+}
+
+@media screen and (max-width: 27.5rem) {
+    .aboutUs-grid {
+        grid-template-rows: auto 350px auto;
+    }
+
+    .room-plan-description {
+        width: 25rem;
+    }
+
+    .aboutUs-percentB {
+        font-size: 7rem;
+    }
+
+    .aboutUs-block-one-midle {
+        margin: 2rem 0rem 1rem 0rem;
+    }
+
+    .aboutUs-clients {
+        font-size: 1.2rem;
+        width: 5rem;
+    }
+}

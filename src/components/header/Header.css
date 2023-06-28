@@ -78,3 +78,48 @@
         padding-right: 15px;
     }
 }
+
+@media (max-width: 82.5rem) {
+    .header-navigation-block {
+        justify-content: space-between;
+        gap: 35px
+    }
+
+    .padding-r {
+        padding-right: 15px;
+    }
+}
+
+
+@media (max-width: 55rem) {
+
+    .header-info {
+        padding: 1.8rem 1.87rem 0rem 1.87rem;
+    }
+
+    .header-navigation-block {
+        justify-content: space-between;
+        gap: 35px
+    }
+
+    .padding-r {
+        padding-right: 15px;
+    }
+}
+
+
+@media (max-width: 48rem) {
+
+    .header-navigation-nav,
+    .contact-button {
+        display: none;
+    }
+
+    .contact-button-menu {
+        border: none;
+        background: none;
+        cursor: pointer;
+        display: block;
+    }
+
+}

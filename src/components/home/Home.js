@@ -48,7 +48,7 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <div >
+                    <div className='scroll-container'>
                         <div className="list-container">
                             <div className='list-conteiner-table'>
                                 <div className="list-container-header">

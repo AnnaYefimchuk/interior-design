@@ -29,7 +29,7 @@
 .our-team-block-names-element {
     border-bottom: 1px solid rgba(171, 174, 183, 0.3);
     font-family: 'Roboto';
-    font-size: 1.5rempx;
+    font-size: 1.5rem;
     line-height: 1.75rem;
     letter-spacing: 0.03em;
     padding-bottom: 15px;
@@ -60,8 +60,39 @@
 }
 
 
-@media screen and (max-width: 1920px) {}
+@media screen and (max-width: 118rem) {
+    .our-team-content {
+        max-width: 80.5rem;
+        flex: 1 1;
+    }
 
-@media screen and (max-width: 780px) {}
+}
 
-@media screen and (max-width: 320px) {}
+@media screen and (max-width: 75rem) {
+    .our-team-content {
+        width: auto;
+        padding: 0 50px;
+    }
+}
+
+
+@media screen and (max-width: 37.5rem) {
+    .our-team-content {
+        padding: 0 30px;
+    }
+
+    .our-team-block-names-element {
+        font-size: 1rem;
+        line-height: 1rem;
+        letter-spacing: 0.02em;
+    }
+
+    .our-team-block-title {
+        font-size: 2.6rem;
+    }
+
+    .our-team-block-photo {
+        margin-top: 3rem;
+        width: 100%;
+    }
+}

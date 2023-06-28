@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="footer-block">
 
             <div className="footer-block-size">
-                <div>
+                <div className="footer-firstblock-elements">
                     <div className="footer-firstblock-elements">
                         <img className='' src={Logo} alt='RMC' />
                         <p className="footer-block-about">Take a look at how we designed this housesimply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
@@ -30,14 +30,14 @@ export default function Footer() {
                                 <Link to="/blog" className="footer-block-first-link">BLOG</Link>
                             </li>
                             <li className="footer-block-first-li">
-                                <Link to="/blog" className="footer-block-first-link">Contact</Link>
+                                <Link to="/blog" className="footer-block-first-link">CONTACT</Link>
                             </li>
                         </ul>
                     </nav>
                 </div>
 
                 <div>
-                    <div  className="footer-last-elements">
+                    <div className="footer-last-elements">
                         <div className="footer-visitcall">
                             <p className="footer-block-last-title">Visit</p>
                             <p className="footer-block-last-description">Logan Barker, 865 Oak Boulevard, Elk Grove, Vermont 95184</p>
@@ -53,7 +53,7 @@ export default function Footer() {
             <div className="footer-block-horizontal">
                 <p className="footer-block-horizontal-info">©  Copyright 2022 Email: <span className="orangeColor">Asibulasik@gmail.com</span></p>
             </div>
- 
+
         </div>
     );
 }

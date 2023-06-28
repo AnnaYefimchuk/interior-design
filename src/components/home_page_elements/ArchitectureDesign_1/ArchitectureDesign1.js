@@ -14,9 +14,7 @@ export default function ArchitectureDesign1() {
                     <p className='home-page-aboutcompany-comp'>ARCHITECTURE DESIGN</p>
                     <p className='home-page-aboutcompany-compName'>PROFESSIONAL INTERIOR DESIGN</p>
                     <p className='home-page-aboutcompany-title'>Design for now with the awareness of yesterday and unknown tomorrow. Because small details make the perfect design. Helping you choose between good and best.</p>
-
                     <ButtonModal nameBtn="Let’s work together" />
-
                 </div>
 
                 <p className='home-page-aboutcompany-desElement'>INTERIOR</p>
