@@ -81,6 +81,7 @@ export default function ButtonModal(props) {
 
             <Modal open={isOpen} onClose={() => setIsOpen(false)}>
                 <div className='input-form-block'>
+                    <p className='lwt'>Let's Work Together</p>
                     <form ref={form} onSubmit={sendEmail} className="input-form-block">
                         <input type="text" className='input-form-block-input' name="user_name" value={data.name} onChange={handleChangeName} placeholder="Name*" />
                         <input type="text" className='input-form-block-input' name="user_phone" value={data.number} onChange={handleChangePhone} placeholder="Phone number*" />

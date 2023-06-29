@@ -34,7 +34,7 @@ Bold: 700
   text-align: left;
   font-family: 'LarkenDEMO-Regular';
   background-color: rgb(0, 0, 0);
-
+  overflow-x: hidden;
 }
 
 @font-face {

@@ -84,7 +84,7 @@
 
     .home-page-aboutcompany-desElement {
         line-height: 0rem;
-        color: transparent
+        display: none;
     }
 }
 
@@ -113,15 +113,11 @@
         flex-wrap: wrap;
     }
 
-    .home-page-architecture-img {
-        margin-top: 0px;
-    }
-
 }
 
 @media screen and (max-width: 48rem) {
     .home-page-about {
-        margin: 4.8rem 1.87rem 3.6rem 1.87rem;
+        margin: 4.8rem 8rem 3.6rem 1.87rem;
     }
 
     .home-page-aboutcompany-compName {
@@ -131,7 +127,6 @@
 
     .home-page-aboutcompany-title {
         max-width: 490px;
-
     }
 }
 

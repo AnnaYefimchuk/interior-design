@@ -11,6 +11,7 @@ export default function Modal({ open, children, onClose }) {
             <div className='modal-block'>
                 <div className='modal-block-close'>
                     <button onClick={onClose} className='modal-block-close-btn' ><img className='modal-block-close-img' src={Close} alt='Close' /></button>
+
                 </div>
                 {children}
             </div>

@@ -16,19 +16,26 @@
     background-color: #abaeb763;
 }
 
+.lwt {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
 .input-form-block {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
+    justify-content: center;
 }
 
 .input-form-block-input {
     border: 2px solid #ccc;
     border-radius: 5px;
     font-family: inherit;
-    margin: 6px;
+    margin: 6px 0;
     padding: 10px;
-    width: 220px;
+    width: 250px;
 }
 
 .textareaStyle {
@@ -53,6 +60,7 @@
     text-transform: capitalize;
     transition-duration: 0.4s;
     box-shadow: 0 0 15px #d6d6d6;
+    margin-top: 10px;
 }
 
 .home-page-aboutcompany-button-black:hover {
@@ -60,11 +68,3 @@
     color: #fff;
     text-decoration: none;
 }
-
-@media screen and (min-width: 1921px) {}
-
-@media screen and (max-width: 1920px) {}
-
-@media screen and (max-width: 48rem) {}
-
-@media screen and (max-width: 320px) {}
