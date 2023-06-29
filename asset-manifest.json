@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/interior-design/static/css/main.88fde637.css",
-    "main.js": "/interior-design/static/js/main.c480934f.js",
+    "main.css": "/interior-design/static/css/main.37b390a2.css",
+    "main.js": "/interior-design/static/js/main.e1e1903b.js",
     "static/js/787.0759313b.chunk.js": "/interior-design/static/js/787.0759313b.chunk.js",
     "static/media/ourTeam.png": "/interior-design/static/media/ourTeam.d8757b1aed070f8c2b65.png",
     "static/media/DesignRoom.png": "/interior-design/static/media/DesignRoom.4a337cade4911295a09f.png",
@@ -29,12 +29,12 @@
     "static/media/Dotte.png": "/interior-design/static/media/Dotte.c30f1890dabdf8e5b417.png",
     "static/media/LarkenDEMO-Regular.otf": "/interior-design/static/media/LarkenDEMO-Regular.eb993a16e5e5423b14a1.otf",
     "index.html": "/interior-design/index.html",
-    "main.88fde637.css.map": "/interior-design/static/css/main.88fde637.css.map",
-    "main.c480934f.js.map": "/interior-design/static/js/main.c480934f.js.map",
+    "main.37b390a2.css.map": "/interior-design/static/css/main.37b390a2.css.map",
+    "main.e1e1903b.js.map": "/interior-design/static/js/main.e1e1903b.js.map",
     "787.0759313b.chunk.js.map": "/interior-design/static/js/787.0759313b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.88fde637.css",
-    "static/js/main.c480934f.js"
+    "static/css/main.37b390a2.css",
+    "static/js/main.e1e1903b.js"
   ]
 }
