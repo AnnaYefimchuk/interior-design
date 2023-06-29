@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/interior-design/static/css/main.88fde637.css",
+    "main.js": "/interior-design/static/js/main.c480934f.js",
+    "static/js/787.0759313b.chunk.js": "/interior-design/static/js/787.0759313b.chunk.js",
+    "static/media/ourTeam.png": "/interior-design/static/media/ourTeam.d8757b1aed070f8c2b65.png",
+    "static/media/DesignRoom.png": "/interior-design/static/media/DesignRoom.4a337cade4911295a09f.png",
+    "static/media/Pool.png": "/interior-design/static/media/Pool.787db73696ac467e4f53.png",
+    "static/media/Construction.png": "/interior-design/static/media/Construction.f1f6707e9f854274c81f.png",
+    "static/media/InteriorDesign.png": "/interior-design/static/media/InteriorDesign.f98f8e7422fdf88ee51a.png",
+    "static/media/FloorPlan.png": "/interior-design/static/media/FloorPlan.617af39f3e828e1d290b.png",
+    "static/media/Building2.png": "/interior-design/static/media/Building2.a7d848933ff8d8f93ea2.png",
+    "static/media/Building1.png": "/interior-design/static/media/Building1.234a7488d2266516f988.png",
+    "static/media/ArchitectureDesign.png": "/interior-design/static/media/ArchitectureDesign.9c20316145df8bb6b232.png",
+    "static/media/Room3.png": "/interior-design/static/media/Room3.cc3eee3d2027fd47a3a2.png",
+    "static/media/Room1.png": "/interior-design/static/media/Room1.edbeb91d4270f6df7c98.png",
+    "static/media/Room6.png": "/interior-design/static/media/Room6.edbeb91d4270f6df7c98.png",
+    "static/media/Room5.png": "/interior-design/static/media/Room5.5efc3f37d2a4ac9c2deb.png",
+    "static/media/Roboto-Regular.ttf": "/interior-design/static/media/Roboto-Regular.160d7a6ac26376e5e977.ttf",
+    "static/media/Room2.png": "/interior-design/static/media/Room2.86bd6ca7236d66f4daa3.png",
+    "static/media/Room7.png": "/interior-design/static/media/Room7.86bd6ca7236d66f4daa3.png",
+    "static/media/NotFound.png": "/interior-design/static/media/NotFound.5e0a0daab35b7e7f882d.png",
+    "static/media/Room4.png": "/interior-design/static/media/Room4.ab5063e402ea7db0749e.png",
+    "static/media/Building3.png": "/interior-design/static/media/Building3.3e9965265940c4b2339a.png",
+    "static/media/BG1.png": "/interior-design/static/media/BG1.12ff5d9b0fb9405e93e8.png",
+    "static/media/HousePlan.png": "/interior-design/static/media/HousePlan.9ea39ce25247e5f4220d.png",
+    "static/media/path.png": "/interior-design/static/media/path.8fe9329e06029257a459.png",
+    "static/media/path1.png": "/interior-design/static/media/path1.3bc12d09195b96a0403e.png",
+    "static/media/Dotte.png": "/interior-design/static/media/Dotte.c30f1890dabdf8e5b417.png",
+    "static/media/LarkenDEMO-Regular.otf": "/interior-design/static/media/LarkenDEMO-Regular.eb993a16e5e5423b14a1.otf",
+    "index.html": "/interior-design/index.html",
+    "main.88fde637.css.map": "/interior-design/static/css/main.88fde637.css.map",
+    "main.c480934f.js.map": "/interior-design/static/js/main.c480934f.js.map",
+    "787.0759313b.chunk.js.map": "/interior-design/static/js/787.0759313b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88fde637.css",
+    "static/js/main.c480934f.js"
+  ]
+}
