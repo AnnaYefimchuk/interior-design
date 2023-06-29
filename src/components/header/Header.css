@@ -69,6 +69,10 @@
     background-color: #abaeb763;
 }
 
+.contact-button-menu {
+    display: none;
+}
+
 @media (max-width: 92rem) {
     .header-navigation-nav {
         flex: none;

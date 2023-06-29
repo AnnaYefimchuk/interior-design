@@ -1,8 +1,9 @@
 import { Outlet, Link } from "react-router-dom";
 import './Header.css';
 import Menu from '../../images/Vector.png';
+import NavBar from '../navbar/Navbar'
 
-export default function Header() {
+export default function Header({ click }) {
     return (
         <div className="header-info">
             <div className='header-block'>
@@ -28,7 +29,7 @@ export default function Header() {
 
                 <div className='header-contact'>
                     <button className="contact-button">CONTACT</button>
-                    <button className='contact-button-menu'><img className='contact-button-menu' width="36px" src={Menu} alt='star' /></button>
+                    <button className='contact-button-menu'><img className='contact-button-menu' width="36px" src={Menu} alt='star' onClick={click} /></button>
                 </div>
 
             </div>
